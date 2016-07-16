@@ -1,0 +1,1594 @@
+[Tue Sep 01 07:24:52.897044 2015] [:error] [pid 20932] [remote 127.0.0.1:2230] mod_wsgi (pid=20932): Target WSGI script '/var/www/radiaranai/index.py' cannot be loaded as Python module.
+[Tue Sep 01 07:24:52.897136 2015] [:error] [pid 20932] [remote 127.0.0.1:2230] mod_wsgi (pid=20932): Exception occurred processing WSGI script '/var/www/radiaranai/index.py'.
+[Tue Sep 01 07:24:52.897165 2015] [:error] [pid 20932] [remote 127.0.0.1:2230] Traceback (most recent call last):
+[Tue Sep 01 07:24:52.897197 2015] [:error] [pid 20932] [remote 127.0.0.1:2230]   File "/var/www/radiaranai/index.py", line 121, in <module>
+[Tue Sep 01 07:24:52.897295 2015] [:error] [pid 20932] [remote 127.0.0.1:2230]     session = web.session.Session(app, web.session.DiskStore(os.path.join(curdir,'sessions')),)
+[Tue Sep 01 07:24:52.897313 2015] [:error] [pid 20932] [remote 127.0.0.1:2230]   File "/usr/local/lib/python2.7/dist-packages/web/session.py", line 233, in __init__
+[Tue Sep 01 07:24:52.897435 2015] [:error] [pid 20932] [remote 127.0.0.1:2230]     os.path.abspath(root)
+[Tue Sep 01 07:24:52.897453 2015] [:error] [pid 20932] [remote 127.0.0.1:2230]   File "/usr/lib/python2.7/os.py", line 157, in makedirs
+[Tue Sep 01 07:24:52.897661 2015] [:error] [pid 20932] [remote 127.0.0.1:2230]     mkdir(name, mode)
+[Tue Sep 01 07:24:52.897693 2015] [:error] [pid 20932] [remote 127.0.0.1:2230] OSError: [Errno 13] Permission denied: '/var/www/radiaranai/sessions'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Tue Sep 01 07:24:53.081317 2015] [:error] [pid 20933] [remote 127.0.0.1:2230] mod_wsgi (pid=20933): Target WSGI script '/var/www/radiaranai/index.py' cannot be loaded as Python module.
+[Tue Sep 01 07:24:53.081395 2015] [:error] [pid 20933] [remote 127.0.0.1:2230] mod_wsgi (pid=20933): Exception occurred processing WSGI script '/var/www/radiaranai/index.py'.
+[Tue Sep 01 07:24:53.081423 2015] [:error] [pid 20933] [remote 127.0.0.1:2230] Traceback (most recent call last):
+[Tue Sep 01 07:24:53.081453 2015] [:error] [pid 20933] [remote 127.0.0.1:2230]   File "/var/www/radiaranai/index.py", line 121, in <module>
+[Tue Sep 01 07:24:53.081543 2015] [:error] [pid 20933] [remote 127.0.0.1:2230]     session = web.session.Session(app, web.session.DiskStore(os.path.join(curdir,'sessions')),)
+[Tue Sep 01 07:24:53.081562 2015] [:error] [pid 20933] [remote 127.0.0.1:2230]   File "/usr/local/lib/python2.7/dist-packages/web/session.py", line 233, in __init__
+[Tue Sep 01 07:24:53.081681 2015] [:error] [pid 20933] [remote 127.0.0.1:2230]     os.path.abspath(root)
+[Tue Sep 01 07:24:53.081698 2015] [:error] [pid 20933] [remote 127.0.0.1:2230]   File "/usr/lib/python2.7/os.py", line 157, in makedirs
+[Tue Sep 01 07:24:53.081905 2015] [:error] [pid 20933] [remote 127.0.0.1:2230]     mkdir(name, mode)
+[Tue Sep 01 07:24:53.081936 2015] [:error] [pid 20933] [remote 127.0.0.1:2230] OSError: [Errno 13] Permission denied: '/var/www/radiaranai/sessions'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Fri Sep 04 10:18:37.840387 2015] [:error] [pid 3293] [remote 127.0.0.1:182] Traceback (most recent call last):
+[Fri Sep 04 10:18:37.851549 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Fri Sep 04 10:18:37.851576 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     return self.handle()
+[Fri Sep 04 10:18:37.851586 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Fri Sep 04 10:18:37.851596 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     return self._delegate(fn, self.fvars, args)
+[Fri Sep 04 10:18:37.851623 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Fri Sep 04 10:18:37.851631 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     return handle_class(cls)
+[Fri Sep 04 10:18:37.851639 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Fri Sep 04 10:18:37.851647 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     return tocall(*args)
+[Fri Sep 04 10:18:37.851654 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Fri Sep 04 10:18:37.851662 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     return con.index().index()
+[Fri Sep 04 10:18:37.851670 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Fri Sep 04 10:18:37.851677 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     return t.index()
+[Fri Sep 04 10:18:37.851685 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/var/www/radiaranai/controllers/quickcount.py", line 7, in index
+[Fri Sep 04 10:18:37.851693 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     total_suara,perolehan_suara = model.get_data();
+[Fri Sep 04 10:18:37.851700 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/var/www/radiaranai/controllers/quickcount.py", line 19, in get_data
+[Fri Sep 04 10:18:37.851708 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     res = self.get_query(sql)[0]
+[Fri Sep 04 10:18:37.851715 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/var/www/radiaranai/core/model.py", line 35, in get_query
+[Fri Sep 04 10:18:37.851723 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     self.cursor.execute(query)
+[Fri Sep 04 10:18:37.851730 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Fri Sep 04 10:18:37.851738 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     self.errorhandler(self, exc, value)
+[Fri Sep 04 10:18:37.851746 2015] [:error] [pid 3293] [remote 127.0.0.1:182]   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Fri Sep 04 10:18:37.851753 2015] [:error] [pid 3293] [remote 127.0.0.1:182]     raise errorclass, errorvalue
+[Fri Sep 04 10:18:37.851761 2015] [:error] [pid 3293] [remote 127.0.0.1:182] ProgrammingError: (1146, "Table 'radiaranai.setting_qc' doesn't exist")
+[Fri Sep 04 10:18:37.851805 2015] [:error] [pid 3293] [remote 127.0.0.1:182] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Fri Sep 04 10:19:02.313689 2015] [:error] [pid 12302] [remote 127.0.0.1:1974] Traceback (most recent call last):
+[Fri Sep 04 10:19:02.313771 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Fri Sep 04 10:19:02.313779 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     return self.handle()
+[Fri Sep 04 10:19:02.313785 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Fri Sep 04 10:19:02.313792 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     return self._delegate(fn, self.fvars, args)
+[Fri Sep 04 10:19:02.313807 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Fri Sep 04 10:19:02.313819 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     return handle_class(cls)
+[Fri Sep 04 10:19:02.313830 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Fri Sep 04 10:19:02.313842 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     return tocall(*args)
+[Fri Sep 04 10:19:02.313853 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Fri Sep 04 10:19:02.313885 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     return con.index().index()
+[Fri Sep 04 10:19:02.313911 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Fri Sep 04 10:19:02.313929 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     return t.index()
+[Fri Sep 04 10:19:02.313943 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/var/www/radiaranai/controllers/quickcount.py", line 7, in index
+[Fri Sep 04 10:19:02.313957 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     total_suara,perolehan_suara = model.get_data();
+[Fri Sep 04 10:19:02.313973 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/var/www/radiaranai/controllers/quickcount.py", line 23, in get_data
+[Fri Sep 04 10:19:02.313993 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     perolehan_suara = self.get_query(sql)[0]
+[Fri Sep 04 10:19:02.314007 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/var/www/radiaranai/core/model.py", line 35, in get_query
+[Fri Sep 04 10:19:02.314020 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     self.cursor.execute(query)
+[Fri Sep 04 10:19:02.314031 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Fri Sep 04 10:19:02.314045 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     self.errorhandler(self, exc, value)
+[Fri Sep 04 10:19:02.314060 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Fri Sep 04 10:19:02.314073 2015] [:error] [pid 12302] [remote 127.0.0.1:1974]     raise errorclass, errorvalue
+[Fri Sep 04 10:19:02.314088 2015] [:error] [pid 12302] [remote 127.0.0.1:1974] ProgrammingError: (1146, "Table 'radiaranai.perolehan_suara' doesn't exist")
+[Fri Sep 04 10:19:02.314127 2015] [:error] [pid 12302] [remote 127.0.0.1:1974] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Sat Sep 05 07:37:55.667412 2015] [core:error] [pid 3417] (13)Permission denied: [client 127.0.0.1:58188] AH00132: file permissions deny server access: /var/www/radiaranai/static/images/qc3.jpg, referer: http://dev.radiaranai.com/
+[Sat Sep 05 07:37:55.667591 2015] [core:error] [pid 3426] (13)Permission denied: [client 127.0.0.1:58189] AH00132: file permissions deny server access: /var/www/radiaranai/static/images/qc4.jpg, referer: http://dev.radiaranai.com/
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Sun Sep 06 16:51:55.181267 2015] [:error] [pid 3304] [remote 127.0.0.1:24247] Traceback (most recent call last):
+[Sun Sep 06 16:51:55.240825 2015] [:error] [pid 3304] [remote 127.0.0.1:24247]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 237, in process
+[Sun Sep 06 16:51:55.240872 2015] [:error] [pid 3304] [remote 127.0.0.1:24247]     return p(lambda: process(processors))
+[Sun Sep 06 16:51:55.240891 2015] [:error] [pid 3304] [remote 127.0.0.1:24247]   File "/usr/local/lib/python2.7/dist-packages/web/session.py", line 84, in _processor
+[Sun Sep 06 16:51:55.240961 2015] [:error] [pid 3304] [remote 127.0.0.1:24247]     self._cleanup()
+[Sun Sep 06 16:51:55.240978 2015] [:error] [pid 3304] [remote 127.0.0.1:24247]   File "/usr/local/lib/python2.7/dist-packages/web/session.py", line 172, in _cleanup
+[Sun Sep 06 16:51:55.241158 2015] [:error] [pid 3304] [remote 127.0.0.1:24247]     self.store.cleanup(timeout)
+[Sun Sep 06 16:51:55.241174 2015] [:error] [pid 3304] [remote 127.0.0.1:24247]   File "/usr/local/lib/python2.7/dist-packages/web/session.py", line 277, in cleanup
+[Sun Sep 06 16:51:55.241200 2015] [:error] [pid 3304] [remote 127.0.0.1:24247]     os.remove(path)
+[Sun Sep 06 16:51:55.241208 2015] [:error] [pid 3304] [remote 127.0.0.1:24247] OSError: [Errno 2] No such file or directory: '/var/www/radiaranai/sessions/ccc914b76f3caa4918fb9344170acce066d4cff4'
+[Sun Sep 06 16:51:55.241238 2015] [:error] [pid 3304] [remote 127.0.0.1:24247] 
+[Sun Sep 06 16:51:55.242017 2015] [:error] [pid 3304] [remote 127.0.0.1:64693] Traceback (most recent call last):
+[Sun Sep 06 16:51:55.242122 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Sun Sep 06 16:51:55.242166 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     return self.handle()
+[Sun Sep 06 16:51:55.242226 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Sun Sep 06 16:51:55.242238 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     return self._delegate(fn, self.fvars, args)
+[Sun Sep 06 16:51:55.242276 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Sun Sep 06 16:51:55.242297 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     return handle_class(cls)
+[Sun Sep 06 16:51:55.242351 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Sun Sep 06 16:51:55.242362 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     return tocall(*args)
+[Sun Sep 06 16:51:55.242401 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Sun Sep 06 16:51:55.242422 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     return con.index().index()
+[Sun Sep 06 16:51:55.266908 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Sun Sep 06 16:51:55.371575 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     return t.index()
+[Sun Sep 06 16:51:55.382801 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/var/www/radiaranai/controllers/quickcount.py", line 7, in index
+[Sun Sep 06 16:51:55.402905 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     param = model.get_data();
+[Sun Sep 06 16:51:55.416520 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/var/www/radiaranai/controllers/quickcount.py", line 25, in get_data
+[Sun Sep 06 16:51:55.416646 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     dpt_live = self.get_query(sql)[0]['dpt_live']
+[Sun Sep 06 16:51:55.416654 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/var/www/radiaranai/core/model.py", line 35, in get_query
+[Sun Sep 06 16:51:55.416659 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     self.cursor.execute(query)
+[Sun Sep 06 16:51:55.416663 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Sun Sep 06 16:51:55.416667 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     self.errorhandler(self, exc, value)
+[Sun Sep 06 16:51:55.416671 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Sun Sep 06 16:51:55.416676 2015] [:error] [pid 3304] [remote 127.0.0.1:64693]     raise errorclass, errorvalue
+[Sun Sep 06 16:51:55.416679 2015] [:error] [pid 3304] [remote 127.0.0.1:64693] OperationalError: (1248, 'Every derived table must have its own alias')
+[Sun Sep 06 16:51:55.416700 2015] [:error] [pid 3304] [remote 127.0.0.1:64693] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Sun Sep 06 16:52:00.734383 2015] [:error] [pid 20484] [remote 127.0.0.1:1462] Traceback (most recent call last):
+[Sun Sep 06 16:52:00.734470 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Sun Sep 06 16:52:00.734476 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     return self.handle()
+[Sun Sep 06 16:52:00.734480 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Sun Sep 06 16:52:00.734484 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     return self._delegate(fn, self.fvars, args)
+[Sun Sep 06 16:52:00.734488 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Sun Sep 06 16:52:00.734492 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     return handle_class(cls)
+[Sun Sep 06 16:52:00.734496 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Sun Sep 06 16:52:00.734500 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     return tocall(*args)
+[Sun Sep 06 16:52:00.734503 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Sun Sep 06 16:52:00.734507 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     return con.index().index()
+[Sun Sep 06 16:52:00.734511 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Sun Sep 06 16:52:00.734515 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     return t.index()
+[Sun Sep 06 16:52:00.734518 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/quickcount.py", line 7, in index
+[Sun Sep 06 16:52:00.734522 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     param = model.get_data();
+[Sun Sep 06 16:52:00.734526 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/quickcount.py", line 25, in get_data
+[Sun Sep 06 16:52:00.734530 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     dpt_live = self.get_query(sql)[0]['dpt_live']
+[Sun Sep 06 16:52:00.734533 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/core/model.py", line 35, in get_query
+[Sun Sep 06 16:52:00.734537 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     self.cursor.execute(query)
+[Sun Sep 06 16:52:00.734541 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Sun Sep 06 16:52:00.734545 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     self.errorhandler(self, exc, value)
+[Sun Sep 06 16:52:00.734549 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Sun Sep 06 16:52:00.734553 2015] [:error] [pid 20484] [remote 127.0.0.1:1462]     raise errorclass, errorvalue
+[Sun Sep 06 16:52:00.734556 2015] [:error] [pid 20484] [remote 127.0.0.1:1462] OperationalError: (1248, 'Every derived table must have its own alias')
+[Sun Sep 06 16:52:00.734566 2015] [:error] [pid 20484] [remote 127.0.0.1:1462] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Sun Sep 06 16:52:02.053079 2015] [:error] [pid 20485] [remote 127.0.0.1:1462] Traceback (most recent call last):
+[Sun Sep 06 16:52:02.053176 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Sun Sep 06 16:52:02.053181 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     return self.handle()
+[Sun Sep 06 16:52:02.053185 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Sun Sep 06 16:52:02.053189 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     return self._delegate(fn, self.fvars, args)
+[Sun Sep 06 16:52:02.053193 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Sun Sep 06 16:52:02.053214 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     return handle_class(cls)
+[Sun Sep 06 16:52:02.053224 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Sun Sep 06 16:52:02.053235 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     return tocall(*args)
+[Sun Sep 06 16:52:02.053245 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Sun Sep 06 16:52:02.053255 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     return con.index().index()
+[Sun Sep 06 16:52:02.053264 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Sun Sep 06 16:52:02.053274 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     return t.index()
+[Sun Sep 06 16:52:02.053283 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/quickcount.py", line 7, in index
+[Sun Sep 06 16:52:02.053293 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     param = model.get_data();
+[Sun Sep 06 16:52:02.053303 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/quickcount.py", line 25, in get_data
+[Sun Sep 06 16:52:02.053312 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     dpt_live = self.get_query(sql)[0]['dpt_live']
+[Sun Sep 06 16:52:02.053322 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/core/model.py", line 35, in get_query
+[Sun Sep 06 16:52:02.053332 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     self.cursor.execute(query)
+[Sun Sep 06 16:52:02.053342 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Sun Sep 06 16:52:02.053352 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     self.errorhandler(self, exc, value)
+[Sun Sep 06 16:52:02.053362 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Sun Sep 06 16:52:02.053372 2015] [:error] [pid 20485] [remote 127.0.0.1:1462]     raise errorclass, errorvalue
+[Sun Sep 06 16:52:02.053381 2015] [:error] [pid 20485] [remote 127.0.0.1:1462] OperationalError: (1248, 'Every derived table must have its own alias')
+[Sun Sep 06 16:52:02.053405 2015] [:error] [pid 20485] [remote 127.0.0.1:1462] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Sun Sep 06 16:52:03.485333 2015] [:error] [pid 20532] [remote 127.0.0.1:1462] Traceback (most recent call last):
+[Sun Sep 06 16:52:03.485436 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Sun Sep 06 16:52:03.485449 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     return self.handle()
+[Sun Sep 06 16:52:03.485459 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Sun Sep 06 16:52:03.485470 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     return self._delegate(fn, self.fvars, args)
+[Sun Sep 06 16:52:03.485481 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Sun Sep 06 16:52:03.485491 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     return handle_class(cls)
+[Sun Sep 06 16:52:03.485501 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Sun Sep 06 16:52:03.485511 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     return tocall(*args)
+[Sun Sep 06 16:52:03.485520 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Sun Sep 06 16:52:03.485530 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     return con.index().index()
+[Sun Sep 06 16:52:03.485540 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Sun Sep 06 16:52:03.485573 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     return t.index()
+[Sun Sep 06 16:52:03.485583 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/quickcount.py", line 7, in index
+[Sun Sep 06 16:52:03.485593 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     param = model.get_data();
+[Sun Sep 06 16:52:03.485603 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/quickcount.py", line 25, in get_data
+[Sun Sep 06 16:52:03.485613 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     dpt_live = self.get_query(sql)[0]['dpt_live']
+[Sun Sep 06 16:52:03.485622 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/core/model.py", line 35, in get_query
+[Sun Sep 06 16:52:03.485632 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     self.cursor.execute(query)
+[Sun Sep 06 16:52:03.485641 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Sun Sep 06 16:52:03.485651 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     self.errorhandler(self, exc, value)
+[Sun Sep 06 16:52:03.485661 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Sun Sep 06 16:52:03.485671 2015] [:error] [pid 20532] [remote 127.0.0.1:1462]     raise errorclass, errorvalue
+[Sun Sep 06 16:52:03.485681 2015] [:error] [pid 20532] [remote 127.0.0.1:1462] OperationalError: (1248, 'Every derived table must have its own alias')
+[Sun Sep 06 16:52:03.485704 2015] [:error] [pid 20532] [remote 127.0.0.1:1462] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Sun Sep 06 16:53:15.852292 2015] [:error] [pid 20554] [remote 127.0.0.1:1462] Traceback (most recent call last):
+[Sun Sep 06 16:53:15.852359 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Sun Sep 06 16:53:15.852365 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]     return self.handle()
+[Sun Sep 06 16:53:15.852370 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Sun Sep 06 16:53:15.852374 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]     return self._delegate(fn, self.fvars, args)
+[Sun Sep 06 16:53:15.852379 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Sun Sep 06 16:53:15.852383 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]     return handle_class(cls)
+[Sun Sep 06 16:53:15.852388 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Sun Sep 06 16:53:15.852392 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]     return tocall(*args)
+[Sun Sep 06 16:53:15.852396 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Sun Sep 06 16:53:15.852401 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]     return con.index().index()
+[Sun Sep 06 16:53:15.852405 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Sun Sep 06 16:53:15.852410 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]     return t.index()
+[Sun Sep 06 16:53:15.852414 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/quickcount.py", line 9, in index
+[Sun Sep 06 16:53:15.852418 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]     return layout(param);
+[Sun Sep 06 16:53:15.852422 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 881, in __call__
+[Sun Sep 06 16:53:15.852427 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]     return BaseTemplate.__call__(self, *a, **kw)
+[Sun Sep 06 16:53:15.852447 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 808, in __call__
+[Sun Sep 06 16:53:15.852451 2015] [:error] [pid 20554] [remote 127.0.0.1:1462]     return self.t(*a, **kw)
+[Sun Sep 06 16:53:15.852455 2015] [:error] [pid 20554] [remote 127.0.0.1:1462] TypeError: __template__() takes exactly 6 arguments (1 given)
+[Sun Sep 06 16:53:15.852465 2015] [:error] [pid 20554] [remote 127.0.0.1:1462] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Sun Sep 06 16:56:45.151618 2015] [:error] [pid 20900] [remote 127.0.0.1:1462] Traceback (most recent call last):
+[Sun Sep 06 16:56:45.151683 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Sun Sep 06 16:56:45.151689 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]     return self.handle()
+[Sun Sep 06 16:56:45.151694 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Sun Sep 06 16:56:45.151698 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]     return self._delegate(fn, self.fvars, args)
+[Sun Sep 06 16:56:45.151703 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Sun Sep 06 16:56:45.151707 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]     return handle_class(cls)
+[Sun Sep 06 16:56:45.151712 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Sun Sep 06 16:56:45.151716 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]     return tocall(*args)
+[Sun Sep 06 16:56:45.151720 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Sun Sep 06 16:56:45.151725 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]     return con.index().index()
+[Sun Sep 06 16:56:45.151729 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Sun Sep 06 16:56:45.151734 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]     return t.index()
+[Sun Sep 06 16:56:45.151738 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/quickcount.py", line 9, in index
+[Sun Sep 06 16:56:45.151742 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]     return layout(*param);
+[Sun Sep 06 16:56:45.151747 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 881, in __call__
+[Sun Sep 06 16:56:45.151751 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]     return BaseTemplate.__call__(self, *a, **kw)
+[Sun Sep 06 16:56:45.151756 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 808, in __call__
+[Sun Sep 06 16:56:45.151760 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]     return self.t(*a, **kw)
+[Sun Sep 06 16:56:45.151764 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]   File "views/quickcount.html", line 77, in __template__
+[Sun Sep 06 16:56:45.151768 2015] [:error] [pid 20900] [remote 127.0.0.1:1462]     </body>
+[Sun Sep 06 16:56:45.151773 2015] [:error] [pid 20900] [remote 127.0.0.1:1462] TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
+[Sun Sep 06 16:56:45.151783 2015] [:error] [pid 20900] [remote 127.0.0.1:1462] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Sun Sep 06 16:57:47.837762 2015] [:error] [pid 21084] [remote 127.0.0.1:1462] Traceback (most recent call last):
+[Sun Sep 06 16:57:47.837828 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Sun Sep 06 16:57:47.837834 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]     return self.handle()
+[Sun Sep 06 16:57:47.837854 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Sun Sep 06 16:57:47.837859 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]     return self._delegate(fn, self.fvars, args)
+[Sun Sep 06 16:57:47.837863 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Sun Sep 06 16:57:47.837867 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]     return handle_class(cls)
+[Sun Sep 06 16:57:47.837870 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Sun Sep 06 16:57:47.837875 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]     return tocall(*args)
+[Sun Sep 06 16:57:47.837878 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Sun Sep 06 16:57:47.837882 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]     return con.index().index()
+[Sun Sep 06 16:57:47.837886 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Sun Sep 06 16:57:47.837890 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]     return t.index()
+[Sun Sep 06 16:57:47.837893 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]   File "/var/www/radiaranai/controllers/quickcount.py", line 9, in index
+[Sun Sep 06 16:57:47.837897 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]     return layout(*param);
+[Sun Sep 06 16:57:47.837901 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 881, in __call__
+[Sun Sep 06 16:57:47.837905 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]     return BaseTemplate.__call__(self, *a, **kw)
+[Sun Sep 06 16:57:47.837908 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 808, in __call__
+[Sun Sep 06 16:57:47.837912 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]     return self.t(*a, **kw)
+[Sun Sep 06 16:57:47.837916 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]   File "views/quickcount.html", line 77, in __template__
+[Sun Sep 06 16:57:47.837919 2015] [:error] [pid 21084] [remote 127.0.0.1:1462]     </body>
+[Sun Sep 06 16:57:47.837923 2015] [:error] [pid 21084] [remote 127.0.0.1:1462] TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
+[Sun Sep 06 16:57:47.837933 2015] [:error] [pid 21084] [remote 127.0.0.1:1462] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Fri Sep 11 15:41:25.761373 2015] [autoindex:error] [pid 3394] [client 127.0.0.1:40132] AH01276: Cannot serve directory /var/www/radiaranai/static/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://dev.radiaranai.com/
+[Fri Sep 11 15:41:26.116784 2015] [autoindex:error] [pid 3394] [client 127.0.0.1:40132] AH01276: Cannot serve directory /var/www/radiaranai/static/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://dev.radiaranai.com/
+[Fri Sep 11 15:41:27.060827 2015] [autoindex:error] [pid 3394] [client 127.0.0.1:40132] AH01276: Cannot serve directory /var/www/radiaranai/static/images/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://dev.radiaranai.com/
+[Fri Sep 11 15:41:27.198803 2015] [autoindex:error] [pid 3394] [client 127.0.0.1:40132] AH01276: Cannot serve directory /var/www/radiaranai/static/images/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://dev.radiaranai.com/
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Fri Sep 11 15:57:14.420600 2015] [:error] [pid 11862] [remote 127.0.0.1:1974] Traceback (most recent call last):
+[Fri Sep 11 15:57:14.420663 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Fri Sep 11 15:57:14.420668 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     return self.handle()
+[Fri Sep 11 15:57:14.420673 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Fri Sep 11 15:57:14.420678 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     return self._delegate(fn, self.fvars, args)
+[Fri Sep 11 15:57:14.420682 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Fri Sep 11 15:57:14.420687 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     return handle_class(cls)
+[Fri Sep 11 15:57:14.420691 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Fri Sep 11 15:57:14.420696 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     return tocall(*args)
+[Fri Sep 11 15:57:14.420700 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Fri Sep 11 15:57:14.420704 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     return con.index().index()
+[Fri Sep 11 15:57:14.420709 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Fri Sep 11 15:57:14.420713 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     return t.index()
+[Fri Sep 11 15:57:14.420729 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/var/www/radiaranai/controllers/quickcount.py", line 8, in index
+[Fri Sep 11 15:57:14.420733 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     layout = web.template.frender("views/quickcount.html");
+[Fri Sep 11 15:57:14.420737 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 1061, in frender
+[Fri Sep 11 15:57:14.420740 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     return Template(open(path).read(), filename=path, **keywords)
+[Fri Sep 11 15:57:14.420744 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 846, in __init__
+[Fri Sep 11 15:57:14.420748 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     code = self.compile_template(text, filename)
+[Fri Sep 11 15:57:14.420752 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 901, in compile_template
+[Fri Sep 11 15:57:14.420756 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     code = Template.generate_code(template_string, filename, parser=self.create_parser())
+[Fri Sep 11 15:57:14.420759 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 886, in generate_code
+[Fri Sep 11 15:57:14.420763 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     rootnode = parser.parse(text, filename)
+[Fri Sep 11 15:57:14.420767 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 79, in parse
+[Fri Sep 11 15:57:14.420771 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     suite = self.read_suite(text)
+[Fri Sep 11 15:57:14.420774 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 167, in read_suite
+[Fri Sep 11 15:57:14.420778 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     section, text = self.read_section(text)
+[Fri Sep 11 15:57:14.420782 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 118, in read_section
+[Fri Sep 11 15:57:14.420785 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     return self.readline(text)
+[Fri Sep 11 15:57:14.420789 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 190, in readline
+[Fri Sep 11 15:57:14.420793 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     node, line = self.read_node(line)
+[Fri Sep 11 15:57:14.420796 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 216, in read_node
+[Fri Sep 11 15:57:14.420800 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     return self.read_expr(text, escape=escape)
+[Fri Sep 11 15:57:14.420804 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 354, in read_expr
+[Fri Sep 11 15:57:14.420807 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     paren_expr()
+[Fri Sep 11 15:57:14.420811 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 292, in paren_expr
+[Fri Sep 11 15:57:14.420814 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     paren_expr()
+[Fri Sep 11 15:57:14.420818 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 291, in paren_expr
+[Fri Sep 11 15:57:14.420822 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     if tokens.lookahead().value in parens:
+[Fri Sep 11 15:57:14.420825 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 332, in lookahead
+[Fri Sep 11 15:57:14.420829 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     self.items.append(self._next())
+[Fri Sep 11 15:57:14.420837 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 337, in _next
+[Fri Sep 11 15:57:14.420841 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     return self.iteritems.next()
+[Fri Sep 11 15:57:14.420845 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/local/lib/python2.7/dist-packages/web/template.py", line 313, in get_tokens
+[Fri Sep 11 15:57:14.420849 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     for t in tokenize.generate_tokens(readline):
+[Fri Sep 11 15:57:14.420853 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]   File "/usr/lib/python2.7/tokenize.py", line 363, in generate_tokens
+[Fri Sep 11 15:57:14.420856 2015] [:error] [pid 11862] [remote 127.0.0.1:1974]     raise TokenError, ("EOF in multi-line statement", (lnum, 0))
+[Fri Sep 11 15:57:14.420860 2015] [:error] [pid 11862] [remote 127.0.0.1:1974] TokenError: ('EOF in multi-line statement', (2, 0))
+[Fri Sep 11 15:57:14.420870 2015] [:error] [pid 11862] [remote 127.0.0.1:1974] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Fri Sep 18 13:04:13.227268 2015] [:error] [pid 17018] [remote 127.0.0.1:40118] Traceback (most recent call last):
+[Fri Sep 18 13:04:13.258762 2015] [:error] [pid 17018] [remote 127.0.0.1:40118]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 237, in process
+[Fri Sep 18 13:04:13.258784 2015] [:error] [pid 17018] [remote 127.0.0.1:40118]     return p(lambda: process(processors))
+[Fri Sep 18 13:04:13.258789 2015] [:error] [pid 17018] [remote 127.0.0.1:40118]   File "/usr/local/lib/python2.7/dist-packages/web/session.py", line 84, in _processor
+[Fri Sep 18 13:04:13.258794 2015] [:error] [pid 17018] [remote 127.0.0.1:40118]     self._cleanup()
+[Fri Sep 18 13:04:13.258799 2015] [:error] [pid 17018] [remote 127.0.0.1:40118]   File "/usr/local/lib/python2.7/dist-packages/web/session.py", line 172, in _cleanup
+[Fri Sep 18 13:04:13.258803 2015] [:error] [pid 17018] [remote 127.0.0.1:40118]     self.store.cleanup(timeout)
+[Fri Sep 18 13:04:13.258808 2015] [:error] [pid 17018] [remote 127.0.0.1:40118]   File "/usr/local/lib/python2.7/dist-packages/web/session.py", line 279, in cleanup
+[Fri Sep 18 13:04:13.258812 2015] [:error] [pid 17018] [remote 127.0.0.1:40118]     os.remove(path)
+[Fri Sep 18 13:04:13.258816 2015] [:error] [pid 17018] [remote 127.0.0.1:40118] OSError: [Errno 2] No such file or directory: '/var/www/radiaranai/sessions/090d52ebd61711e80501f373d003201cee6ff298'
+[Fri Sep 18 13:04:13.258856 2015] [:error] [pid 17018] [remote 127.0.0.1:40118] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Thu Oct 15 18:20:18.333298 2015] [:error] [pid 3527] [remote 127.0.0.1:65461] Traceback (most recent call last):
+[Thu Oct 15 18:20:18.360297 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Thu Oct 15 18:20:18.360322 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]     return self.handle()
+[Thu Oct 15 18:20:18.360328 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Thu Oct 15 18:20:18.360333 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]     return self._delegate(fn, self.fvars, args)
+[Thu Oct 15 18:20:18.360339 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Thu Oct 15 18:20:18.360343 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]     return handle_class(cls)
+[Thu Oct 15 18:20:18.360348 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Thu Oct 15 18:20:18.360353 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]     return tocall(*args)
+[Thu Oct 15 18:20:18.360357 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Thu Oct 15 18:20:18.360361 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]     return con.index().index()
+[Thu Oct 15 18:20:18.360366 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Thu Oct 15 18:20:18.360370 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]     return t.index()
+[Thu Oct 15 18:20:18.360374 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]   File "/var/www/radiaranai/controllers/quickcount.py", line 7, in index
+[Thu Oct 15 18:20:18.360379 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]     param = model.get_data();
+[Thu Oct 15 18:20:18.360383 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]   File "/var/www/radiaranai/controllers/quickcount.py", line 20, in get_data
+[Thu Oct 15 18:20:18.360387 2015] [:error] [pid 3527] [remote 127.0.0.1:65461]     res = self.cl.aggregate([
+[Thu Oct 15 18:20:18.360391 2015] [:error] [pid 3527] [remote 127.0.0.1:65461] AttributeError: m_qc instance has no attribute 'cl'
+[Thu Oct 15 18:20:18.360429 2015] [:error] [pid 3527] [remote 127.0.0.1:65461] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Thu Oct 15 18:20:30.118015 2015] [:error] [pid 20332] [remote 127.0.0.1:1718] Traceback (most recent call last):
+[Thu Oct 15 18:20:30.118068 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Thu Oct 15 18:20:30.118074 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]     return self.handle()
+[Thu Oct 15 18:20:30.118079 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Thu Oct 15 18:20:30.118083 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]     return self._delegate(fn, self.fvars, args)
+[Thu Oct 15 18:20:30.118088 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Thu Oct 15 18:20:30.118092 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]     return handle_class(cls)
+[Thu Oct 15 18:20:30.118097 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Thu Oct 15 18:20:30.118117 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]     return tocall(*args)
+[Thu Oct 15 18:20:30.118121 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Thu Oct 15 18:20:30.118125 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]     return con.index().index()
+[Thu Oct 15 18:20:30.118128 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Thu Oct 15 18:20:30.118132 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]     return t.index()
+[Thu Oct 15 18:20:30.118136 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]   File "/var/www/radiaranai/controllers/quickcount.py", line 7, in index
+[Thu Oct 15 18:20:30.118140 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]     param = model.get_data();
+[Thu Oct 15 18:20:30.118143 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]   File "/var/www/radiaranai/controllers/quickcount.py", line 44, in get_data
+[Thu Oct 15 18:20:30.118147 2015] [:error] [pid 20332] [remote 127.0.0.1:1718]     suara = {'suara1':res['suara1'],'suara2':res['suara2'],'suara3':res['suara3'],'suara4':res['suara4']}
+[Thu Oct 15 18:20:30.118151 2015] [:error] [pid 20332] [remote 127.0.0.1:1718] TypeError: 'CommandCursor' object has no attribute '__getitem__'
+[Thu Oct 15 18:20:30.118163 2015] [:error] [pid 20332] [remote 127.0.0.1:1718] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Thu Oct 15 18:20:58.002540 2015] [:error] [pid 20333] [remote 127.0.0.1:1718] Traceback (most recent call last):
+[Thu Oct 15 18:20:58.002654 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Thu Oct 15 18:20:58.002673 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]     return self.handle()
+[Thu Oct 15 18:20:58.002689 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Thu Oct 15 18:20:58.002782 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]     return self._delegate(fn, self.fvars, args)
+[Thu Oct 15 18:20:58.002806 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Thu Oct 15 18:20:58.002824 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]     return handle_class(cls)
+[Thu Oct 15 18:20:58.002840 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Thu Oct 15 18:20:58.002857 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]     return tocall(*args)
+[Thu Oct 15 18:20:58.002873 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]   File "/var/www/radiaranai/index.py", line 26, in GET
+[Thu Oct 15 18:20:58.002890 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]     return con.index().index()
+[Thu Oct 15 18:20:58.002904 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]   File "/var/www/radiaranai/controllers/index.py", line 5, in index
+[Thu Oct 15 18:20:58.002921 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]     return t.index()
+[Thu Oct 15 18:20:58.002936 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]   File "/var/www/radiaranai/controllers/quickcount.py", line 9, in index
+[Thu Oct 15 18:20:58.002952 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]     return layout(*param);
+[Thu Oct 15 18:20:58.002968 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]   File "/usr/lib/python2.7/dist-packages/web/template.py", line 881, in __call__
+[Thu Oct 15 18:20:58.002985 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]     return BaseTemplate.__call__(self, *a, **kw)
+[Thu Oct 15 18:20:58.002992 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]   File "/usr/lib/python2.7/dist-packages/web/template.py", line 808, in __call__
+[Thu Oct 15 18:20:58.002998 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]     return self.t(*a, **kw)
+[Thu Oct 15 18:20:58.003042 2015] [:error] [pid 20333] [remote 127.0.0.1:1718]   File "views/quickcount.html", line 20, in __template__
+[Thu Oct 15 18:20:58.003060 2015] [:error] [pid 20333] [remote 127.0.0.1:1718] KeyError: 'total1'
+[Thu Oct 15 18:20:58.003106 2015] [:error] [pid 20333] [remote 127.0.0.1:1718] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 13:51:57.509215 2015] [:error] [pid 3358] [remote 127.0.0.1:694] 0.26 (1): DELETE FROM sessions WHERE '2015-12-13T13:51:56.683000' > atime
+[Mon Dec 14 13:51:57.982032 2015] [:error] [pid 3358] [remote 127.0.0.1:694] 0.05 (2): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:51:58.022830 2015] [:error] [pid 3358] [remote 127.0.0.1:694] Traceback (most recent call last):
+[Mon Dec 14 13:51:58.022898 2015] [:error] [pid 3358] [remote 127.0.0.1:694]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Mon Dec 14 13:51:58.022912 2015] [:error] [pid 3358] [remote 127.0.0.1:694]     return self.handle()
+[Mon Dec 14 13:51:58.022924 2015] [:error] [pid 3358] [remote 127.0.0.1:694]   File "/var/www/radiaranai/index.py", line 26, in handle
+[Mon Dec 14 13:51:58.022936 2015] [:error] [pid 3358] [remote 127.0.0.1:694]     return web.application.handle(self)
+[Mon Dec 14 13:51:58.022947 2015] [:error] [pid 3358] [remote 127.0.0.1:694]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Mon Dec 14 13:51:58.022959 2015] [:error] [pid 3358] [remote 127.0.0.1:694]     return self._delegate(fn, self.fvars, args)
+[Mon Dec 14 13:51:58.022970 2015] [:error] [pid 3358] [remote 127.0.0.1:694]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 419, in _delegate
+[Mon Dec 14 13:51:58.022981 2015] [:error] [pid 3358] [remote 127.0.0.1:694]     cls = fvars[f]
+[Mon Dec 14 13:51:58.022992 2015] [:error] [pid 3358] [remote 127.0.0.1:694] KeyError: u'travel'
+[Mon Dec 14 13:51:58.023014 2015] [:error] [pid 3358] [remote 127.0.0.1:694] 
+[Mon Dec 14 13:51:58.322303 2015] [:error] [pid 3358] [remote 127.0.0.1:694] 0.0 (3): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:51:58.348366 2015] [:error] [pid 3358] [remote 127.0.0.1:694] 0.03 (4): INSERT INTO sessions (data, session_id) VALUES ('KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnOWM3NzE2ZWVm\\nNDBlYzQ1OWQ5MjZiOGUxMTA5Y2U5Y2ZhYWMyNGVkMycKcDUKcy4=\\n', '9c7716eef40ec459d926b8e1109ce9cfaac24ed3')
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 13:51:58.823026 2015] [:error] [pid 3359] [remote 127.0.0.1:694] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T13:51:58.808464' > atime
+[Mon Dec 14 13:51:58.824449 2015] [:error] [pid 3359] [remote 127.0.0.1:694] 0.0 (2): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:51:58.825216 2015] [:error] [pid 3359] [remote 127.0.0.1:694] 0.0 (3): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:51:58.839662 2015] [:error] [pid 3359] [remote 127.0.0.1:694] 0.01 (4): UPDATE sessions SET atime = '2015-12-14T13:51:58.824636' WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:51:58.882536 2015] [:error] [pid 3359] [remote 127.0.0.1:694] 0.0 (5): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:51:58.884050 2015] [:error] [pid 3359] [remote 127.0.0.1:694] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnOWM3NzE2ZWVm\\nNDBlYzQ1OWQ5MjZiOGUxMTA5Y2U5Y2ZhYWMyNGVkMycKcDUKcy4=\\n' WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 13:52:10.427690 2015] [:error] [pid 4838] [remote 127.0.0.1:2486] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T13:52:10.411268' > atime
+[Mon Dec 14 13:52:10.429594 2015] [:error] [pid 4838] [remote 127.0.0.1:2486] 0.0 (2): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:52:10.431042 2015] [:error] [pid 4838] [remote 127.0.0.1:2486] 0.0 (3): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:52:10.432309 2015] [:error] [pid 4838] [remote 127.0.0.1:2486] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T13:52:10.429888' WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:52:10.462075 2015] [:error] [pid 4838] [remote 127.0.0.1:2486] Traceback (most recent call last):
+[Mon Dec 14 13:52:10.462137 2015] [:error] [pid 4838] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Mon Dec 14 13:52:10.462157 2015] [:error] [pid 4838] [remote 127.0.0.1:2486]     return self.handle()
+[Mon Dec 14 13:52:10.462173 2015] [:error] [pid 4838] [remote 127.0.0.1:2486]   File "/var/www/radiaranai/index.py", line 26, in handle
+[Mon Dec 14 13:52:10.462184 2015] [:error] [pid 4838] [remote 127.0.0.1:2486]     return web.application.handle(self)
+[Mon Dec 14 13:52:10.462194 2015] [:error] [pid 4838] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Mon Dec 14 13:52:10.462205 2015] [:error] [pid 4838] [remote 127.0.0.1:2486]     return self._delegate(fn, self.fvars, args)
+[Mon Dec 14 13:52:10.462215 2015] [:error] [pid 4838] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 419, in _delegate
+[Mon Dec 14 13:52:10.462225 2015] [:error] [pid 4838] [remote 127.0.0.1:2486]     cls = fvars[f]
+[Mon Dec 14 13:52:10.462234 2015] [:error] [pid 4838] [remote 127.0.0.1:2486] KeyError: u'travel'
+[Mon Dec 14 13:52:10.462259 2015] [:error] [pid 4838] [remote 127.0.0.1:2486] 
+[Mon Dec 14 13:52:10.564002 2015] [:error] [pid 4838] [remote 127.0.0.1:2486] 0.0 (5): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:52:10.565467 2015] [:error] [pid 4838] [remote 127.0.0.1:2486] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnOWM3NzE2ZWVm\\nNDBlYzQ1OWQ5MjZiOGUxMTA5Y2U5Y2ZhYWMyNGVkMycKcDUKcy4=\\n' WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 13:52:53.918277 2015] [:error] [pid 4837] [remote 127.0.0.1:2486] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T13:52:53.903110' > atime
+[Mon Dec 14 13:52:53.919744 2015] [:error] [pid 4837] [remote 127.0.0.1:2486] 0.0 (2): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:52:53.920435 2015] [:error] [pid 4837] [remote 127.0.0.1:2486] 0.0 (3): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:52:53.921030 2015] [:error] [pid 4837] [remote 127.0.0.1:2486] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T13:52:53.919915' WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:52:53.957679 2015] [:error] [pid 4837] [remote 127.0.0.1:2486] Traceback (most recent call last):
+[Mon Dec 14 13:52:53.957735 2015] [:error] [pid 4837] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Mon Dec 14 13:52:53.957749 2015] [:error] [pid 4837] [remote 127.0.0.1:2486]     return self.handle()
+[Mon Dec 14 13:52:53.957761 2015] [:error] [pid 4837] [remote 127.0.0.1:2486]   File "/var/www/radiaranai/index.py", line 26, in handle
+[Mon Dec 14 13:52:53.957797 2015] [:error] [pid 4837] [remote 127.0.0.1:2486]     return web.application.handle(self)
+[Mon Dec 14 13:52:53.957808 2015] [:error] [pid 4837] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Mon Dec 14 13:52:53.957818 2015] [:error] [pid 4837] [remote 127.0.0.1:2486]     return self._delegate(fn, self.fvars, args)
+[Mon Dec 14 13:52:53.957828 2015] [:error] [pid 4837] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 419, in _delegate
+[Mon Dec 14 13:52:53.957839 2015] [:error] [pid 4837] [remote 127.0.0.1:2486]     cls = fvars[f]
+[Mon Dec 14 13:52:53.957848 2015] [:error] [pid 4837] [remote 127.0.0.1:2486] KeyError: u'travel'
+[Mon Dec 14 13:52:53.957869 2015] [:error] [pid 4837] [remote 127.0.0.1:2486] 
+[Mon Dec 14 13:52:54.067246 2015] [:error] [pid 4837] [remote 127.0.0.1:2486] 0.0 (5): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:52:54.068392 2015] [:error] [pid 4837] [remote 127.0.0.1:2486] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnOWM3NzE2ZWVm\\nNDBlYzQ1OWQ5MjZiOGUxMTA5Y2U5Y2ZhYWMyNGVkMycKcDUKcy4=\\n' WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 13:54:03.082305 2015] [:error] [pid 4909] [remote 127.0.0.1:2486] ERR: DELETE FROM sessions WHERE '2015-12-13T13:54:03.052998' > atime
+[Mon Dec 14 13:54:03.091828 2015] [:error] [pid 4909] [remote 127.0.0.1:2486] Traceback (most recent call last):
+[Mon Dec 14 13:54:03.091860 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 237, in process
+[Mon Dec 14 13:54:03.091874 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]     return p(lambda: process(processors))
+[Mon Dec 14 13:54:03.091886 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/session.py", line 84, in _processor
+[Mon Dec 14 13:54:03.091898 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]     self._cleanup()
+[Mon Dec 14 13:54:03.091910 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/session.py", line 172, in _cleanup
+[Mon Dec 14 13:54:03.091921 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]     self.store.cleanup(timeout)
+[Mon Dec 14 13:54:03.091933 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/session.py", line 319, in cleanup
+[Mon Dec 14 13:54:03.091945 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]     self.db.delete(self.table, where="$last_allowed_time > atime", vars=locals())
+[Mon Dec 14 13:54:03.091957 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/db.py", line 907, in delete
+[Mon Dec 14 13:54:03.091969 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]     self._db_execute(db_cursor, q)
+[Mon Dec 14 13:54:03.091980 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/db.py", line 587, in _db_execute
+[Mon Dec 14 13:54:03.091992 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]     out = cur.execute(query, params)
+[Mon Dec 14 13:54:03.092003 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Mon Dec 14 13:54:03.092015 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]     self.errorhandler(self, exc, value)
+[Mon Dec 14 13:54:03.092026 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Mon Dec 14 13:54:03.092038 2015] [:error] [pid 4909] [remote 127.0.0.1:2486]     raise errorclass, errorvalue
+[Mon Dec 14 13:54:03.092049 2015] [:error] [pid 4909] [remote 127.0.0.1:2486] ProgrammingError: (1146, "Table 'radiaranai.sessions' doesn't exist")
+[Mon Dec 14 13:54:03.092092 2015] [:error] [pid 4909] [remote 127.0.0.1:2486] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 13:56:11.160719 2015] [:error] [pid 5064] [remote 127.0.0.1:2486] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T13:56:11.146263' > atime
+[Mon Dec 14 13:56:11.161768 2015] [:error] [pid 5064] [remote 127.0.0.1:2486] 0.0 (2): SELECT * FROM sessions WHERE session_id='9c7716eef40ec459d926b8e1109ce9cfaac24ed3'
+[Mon Dec 14 13:56:11.162375 2015] [:error] [pid 5064] [remote 127.0.0.1:2486] 0.0 (3): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:56:11.163056 2015] [:error] [pid 5064] [remote 127.0.0.1:2486] Traceback (most recent call last):
+[Mon Dec 14 13:56:11.163071 2015] [:error] [pid 5064] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Mon Dec 14 13:56:11.163076 2015] [:error] [pid 5064] [remote 127.0.0.1:2486]     return self.handle()
+[Mon Dec 14 13:56:11.163081 2015] [:error] [pid 5064] [remote 127.0.0.1:2486]   File "/var/www/radiaranai/index.py", line 26, in handle
+[Mon Dec 14 13:56:11.163085 2015] [:error] [pid 5064] [remote 127.0.0.1:2486]     return web.application.handle(self)
+[Mon Dec 14 13:56:11.163090 2015] [:error] [pid 5064] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Mon Dec 14 13:56:11.163094 2015] [:error] [pid 5064] [remote 127.0.0.1:2486]     return self._delegate(fn, self.fvars, args)
+[Mon Dec 14 13:56:11.163099 2015] [:error] [pid 5064] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 419, in _delegate
+[Mon Dec 14 13:56:11.163103 2015] [:error] [pid 5064] [remote 127.0.0.1:2486]     cls = fvars[f]
+[Mon Dec 14 13:56:11.163107 2015] [:error] [pid 5064] [remote 127.0.0.1:2486] KeyError: u'travel'
+[Mon Dec 14 13:56:11.163116 2015] [:error] [pid 5064] [remote 127.0.0.1:2486] 
+[Mon Dec 14 13:56:11.256788 2015] [:error] [pid 5064] [remote 127.0.0.1:2486] 0.0 (4): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:56:11.257462 2015] [:error] [pid 5064] [remote 127.0.0.1:2486] 0.0 (5): INSERT INTO sessions (data, session_id) VALUES ('KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnNWMxYWY5OWVl\\nNTg2MzcxNTRiYWU5NzM1YjdmOTQwOGExMjQxM2UyNScKcDUKcy4=\\n', '5c1af99ee58637154bae9735b7f9408a12413e25')
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 13:58:25.230826 2015] [:error] [pid 5287] [remote 127.0.0.1:2486] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T13:58:25.215286' > atime
+[Mon Dec 14 13:58:25.232182 2015] [:error] [pid 5287] [remote 127.0.0.1:2486] 0.0 (2): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:25.232946 2015] [:error] [pid 5287] [remote 127.0.0.1:2486] 0.0 (3): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:25.233555 2015] [:error] [pid 5287] [remote 127.0.0.1:2486] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T13:58:25.232363' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:25.287783 2015] [:error] [pid 5287] [remote 127.0.0.1:2486] Traceback (most recent call last):
+[Mon Dec 14 13:58:25.287831 2015] [:error] [pid 5287] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Mon Dec 14 13:58:25.287840 2015] [:error] [pid 5287] [remote 127.0.0.1:2486]     return self.handle()
+[Mon Dec 14 13:58:25.287847 2015] [:error] [pid 5287] [remote 127.0.0.1:2486]   File "/var/www/radiaranai/index.py", line 26, in handle
+[Mon Dec 14 13:58:25.287854 2015] [:error] [pid 5287] [remote 127.0.0.1:2486]     return web.application.handle(self)
+[Mon Dec 14 13:58:25.287861 2015] [:error] [pid 5287] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Mon Dec 14 13:58:25.287868 2015] [:error] [pid 5287] [remote 127.0.0.1:2486]     return self._delegate(fn, self.fvars, args)
+[Mon Dec 14 13:58:25.301991 2015] [:error] [pid 5287] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 419, in _delegate
+[Mon Dec 14 13:58:25.302037 2015] [:error] [pid 5287] [remote 127.0.0.1:2486]     cls = fvars[f]
+[Mon Dec 14 13:58:25.302060 2015] [:error] [pid 5287] [remote 127.0.0.1:2486] KeyError: u'travel'
+[Mon Dec 14 13:58:25.302107 2015] [:error] [pid 5287] [remote 127.0.0.1:2486] 
+[Mon Dec 14 13:58:25.405720 2015] [:error] [pid 5287] [remote 127.0.0.1:2486] 0.0 (5): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:25.406707 2015] [:error] [pid 5287] [remote 127.0.0.1:2486] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnNWMxYWY5OWVl\\nNTg2MzcxNTRiYWU5NzM1YjdmOTQwOGExMjQxM2UyNScKcDUKcy4=\\n' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 13:58:26.541282 2015] [:error] [pid 5722] [remote 127.0.0.1:2486] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T13:58:26.525459' > atime
+[Mon Dec 14 13:58:26.543068 2015] [:error] [pid 5722] [remote 127.0.0.1:2486] 0.0 (2): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:26.544161 2015] [:error] [pid 5722] [remote 127.0.0.1:2486] 0.0 (3): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:26.545105 2015] [:error] [pid 5722] [remote 127.0.0.1:2486] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T13:58:26.543372' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:26.588352 2015] [:error] [pid 5722] [remote 127.0.0.1:2486] Traceback (most recent call last):
+[Mon Dec 14 13:58:26.588478 2015] [:error] [pid 5722] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Mon Dec 14 13:58:26.588505 2015] [:error] [pid 5722] [remote 127.0.0.1:2486]     return self.handle()
+[Mon Dec 14 13:58:26.588521 2015] [:error] [pid 5722] [remote 127.0.0.1:2486]   File "/var/www/radiaranai/index.py", line 26, in handle
+[Mon Dec 14 13:58:26.588536 2015] [:error] [pid 5722] [remote 127.0.0.1:2486]     return web.application.handle(self)
+[Mon Dec 14 13:58:26.588551 2015] [:error] [pid 5722] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Mon Dec 14 13:58:26.588565 2015] [:error] [pid 5722] [remote 127.0.0.1:2486]     return self._delegate(fn, self.fvars, args)
+[Mon Dec 14 13:58:26.588580 2015] [:error] [pid 5722] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 419, in _delegate
+[Mon Dec 14 13:58:26.588595 2015] [:error] [pid 5722] [remote 127.0.0.1:2486]     cls = fvars[f]
+[Mon Dec 14 13:58:26.588609 2015] [:error] [pid 5722] [remote 127.0.0.1:2486] KeyError: u'travel'
+[Mon Dec 14 13:58:26.588637 2015] [:error] [pid 5722] [remote 127.0.0.1:2486] 
+[Mon Dec 14 13:58:26.690983 2015] [:error] [pid 5722] [remote 127.0.0.1:2486] 0.0 (5): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:26.691854 2015] [:error] [pid 5722] [remote 127.0.0.1:2486] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnNWMxYWY5OWVl\\nNTg2MzcxNTRiYWU5NzM1YjdmOTQwOGExMjQxM2UyNScKcDUKcy4=\\n' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 13:58:27.475633 2015] [:error] [pid 6249] [remote 127.0.0.1:2486] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T13:58:27.459639' > atime
+[Mon Dec 14 13:58:27.477411 2015] [:error] [pid 6249] [remote 127.0.0.1:2486] 0.0 (2): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:27.478970 2015] [:error] [pid 6249] [remote 127.0.0.1:2486] 0.0 (3): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:27.480009 2015] [:error] [pid 6249] [remote 127.0.0.1:2486] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T13:58:27.477774' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:27.522401 2015] [:error] [pid 6249] [remote 127.0.0.1:2486] Traceback (most recent call last):
+[Mon Dec 14 13:58:27.522442 2015] [:error] [pid 6249] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Mon Dec 14 13:58:27.522450 2015] [:error] [pid 6249] [remote 127.0.0.1:2486]     return self.handle()
+[Mon Dec 14 13:58:27.522457 2015] [:error] [pid 6249] [remote 127.0.0.1:2486]   File "/var/www/radiaranai/index.py", line 26, in handle
+[Mon Dec 14 13:58:27.522463 2015] [:error] [pid 6249] [remote 127.0.0.1:2486]     return web.application.handle(self)
+[Mon Dec 14 13:58:27.522470 2015] [:error] [pid 6249] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Mon Dec 14 13:58:27.522476 2015] [:error] [pid 6249] [remote 127.0.0.1:2486]     return self._delegate(fn, self.fvars, args)
+[Mon Dec 14 13:58:27.522482 2015] [:error] [pid 6249] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 419, in _delegate
+[Mon Dec 14 13:58:27.522489 2015] [:error] [pid 6249] [remote 127.0.0.1:2486]     cls = fvars[f]
+[Mon Dec 14 13:58:27.522495 2015] [:error] [pid 6249] [remote 127.0.0.1:2486] KeyError: u'travel'
+[Mon Dec 14 13:58:27.522511 2015] [:error] [pid 6249] [remote 127.0.0.1:2486] 
+[Mon Dec 14 13:58:27.623477 2015] [:error] [pid 6249] [remote 127.0.0.1:2486] 0.0 (5): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:58:27.624495 2015] [:error] [pid 6249] [remote 127.0.0.1:2486] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnNWMxYWY5OWVl\\nNTg2MzcxNTRiYWU5NzM1YjdmOTQwOGExMjQxM2UyNScKcDUKcy4=\\n' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 13:59:24.312964 2015] [:error] [pid 6269] [remote 127.0.0.1:2486] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T13:59:24.304383' > atime
+[Mon Dec 14 13:59:24.314733 2015] [:error] [pid 6269] [remote 127.0.0.1:2486] 0.0 (2): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:59:24.315746 2015] [:error] [pid 6269] [remote 127.0.0.1:2486] 0.0 (3): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:59:24.316486 2015] [:error] [pid 6269] [remote 127.0.0.1:2486] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T13:59:24.314990' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:59:24.379320 2015] [:error] [pid 6269] [remote 127.0.0.1:2486] Traceback (most recent call last):
+[Mon Dec 14 13:59:24.379349 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Mon Dec 14 13:59:24.379355 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]     return self.handle()
+[Mon Dec 14 13:59:24.379360 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]   File "/var/www/radiaranai/index.py", line 26, in handle
+[Mon Dec 14 13:59:24.379364 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]     return web.application.handle(self)
+[Mon Dec 14 13:59:24.379369 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Mon Dec 14 13:59:24.379373 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]     return self._delegate(fn, self.fvars, args)
+[Mon Dec 14 13:59:24.379378 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Mon Dec 14 13:59:24.379382 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]     return handle_class(cls)
+[Mon Dec 14 13:59:24.379387 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]   File "/usr/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Mon Dec 14 13:59:24.379408 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]     return tocall(*args)
+[Mon Dec 14 13:59:24.379412 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]   File "/var/www/radiaranai/core/controller.py", line 17, in GET
+[Mon Dec 14 13:59:24.379416 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]     return self.render(self.view)
+[Mon Dec 14 13:59:24.379420 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]   File "/var/www/radiaranai/core/controller.py", line 30, in render
+[Mon Dec 14 13:59:24.379424 2015] [:error] [pid 6269] [remote 127.0.0.1:2486]     elapsed = "<!--"+str(time.time() - self.start_time)+"--!>"
+[Mon Dec 14 13:59:24.379428 2015] [:error] [pid 6269] [remote 127.0.0.1:2486] AttributeError: travel instance has no attribute 'start_time'
+[Mon Dec 14 13:59:24.379437 2015] [:error] [pid 6269] [remote 127.0.0.1:2486] 
+[Mon Dec 14 13:59:24.511405 2015] [:error] [pid 6269] [remote 127.0.0.1:2486] 0.0 (5): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 13:59:24.512346 2015] [:error] [pid 6269] [remote 127.0.0.1:2486] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnNWMxYWY5OWVl\\nNTg2MzcxNTRiYWU5NzM1YjdmOTQwOGExMjQxM2UyNScKcDUKcy4=\\n' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 14:04:50.510097 2015] [:error] [pid 6296] [remote 127.0.0.1:2486] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T14:04:50.503914' > atime
+[Mon Dec 14 14:04:50.511837 2015] [:error] [pid 6296] [remote 127.0.0.1:2486] 0.0 (2): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 14:04:50.512984 2015] [:error] [pid 6296] [remote 127.0.0.1:2486] 0.0 (3): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 14:04:50.514264 2015] [:error] [pid 6296] [remote 127.0.0.1:2486] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T14:04:50.512191' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 14:04:50.569876 2015] [:error] [pid 6296] [remote 127.0.0.1:2486] 0.0 (5): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 14:04:50.570970 2015] [:error] [pid 6296] [remote 127.0.0.1:2486] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnNWMxYWY5OWVl\\nNTg2MzcxNTRiYWU5NzM1YjdmOTQwOGExMjQxM2UyNScKcDUKcy4=\\n' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 14:06:35.426577 2015] [:error] [pid 6524] [remote 127.0.0.1:2486] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T14:06:35.417693' > atime
+[Mon Dec 14 14:06:35.428904 2015] [:error] [pid 6524] [remote 127.0.0.1:2486] 0.0 (2): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 14:06:35.430282 2015] [:error] [pid 6524] [remote 127.0.0.1:2486] 0.0 (3): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 14:06:35.431282 2015] [:error] [pid 6524] [remote 127.0.0.1:2486] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T14:06:35.429279' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 14:06:35.498115 2015] [:error] [pid 6524] [remote 127.0.0.1:2486] 0.0 (5): SELECT * FROM sessions WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+[Mon Dec 14 14:06:35.499462 2015] [:error] [pid 6524] [remote 127.0.0.1:2486] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnNWMxYWY5OWVl\\nNTg2MzcxNTRiYWU5NzM1YjdmOTQwOGExMjQxM2UyNScKcDUKcy4=\\n' WHERE session_id='5c1af99ee58637154bae9735b7f9408a12413e25'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 14:38:01.164391 2015] [:error] [pid 3530] [remote 127.0.0.1:64693] 0.07 (1): DELETE FROM sessions WHERE '2015-12-13T14:38:00.971430' > atime
+[Mon Dec 14 14:38:01.192294 2015] [:error] [pid 3530] [remote 127.0.0.1:64693] 0.0 (2): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:38:01.234552 2015] [:error] [pid 3530] [remote 127.0.0.1:64693] 0.0 (3): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:38:01.235372 2015] [:error] [pid 3530] [remote 127.0.0.1:64693] 0.0 (4): INSERT INTO sessions (data, session_id) VALUES ('KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnMWIwOTNiMjc2\\nMjY3YWU0OWZkMjdkYjQ1MWNlZWYzZTU4ZWJmNTdjMicKcDUKcy4=\\n', '1b093b276267ae49fd27db451ceef3e58ebf57c2')
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 14:38:02.309157 2015] [:error] [pid 3531] [remote 127.0.0.1:64693] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T14:38:02.303097' > atime
+[Mon Dec 14 14:38:02.311785 2015] [:error] [pid 3531] [remote 127.0.0.1:64693] 0.0 (2): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:38:02.313238 2015] [:error] [pid 3531] [remote 127.0.0.1:64693] 0.0 (3): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:38:02.314503 2015] [:error] [pid 3531] [remote 127.0.0.1:64693] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T14:38:02.312092' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:38:02.362217 2015] [:error] [pid 3531] [remote 127.0.0.1:64693] 0.0 (5): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:38:02.362895 2015] [:error] [pid 3531] [remote 127.0.0.1:64693] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnMWIwOTNiMjc2\\nMjY3YWU0OWZkMjdkYjQ1MWNlZWYzZTU4ZWJmNTdjMicKcDUKcy4=\\n' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 14:39:51.478487 2015] [:error] [pid 9141] [remote 127.0.0.1:950] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T14:39:51.472730' > atime
+[Mon Dec 14 14:39:51.479628 2015] [:error] [pid 9141] [remote 127.0.0.1:950] 0.0 (2): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:39:51.480199 2015] [:error] [pid 9141] [remote 127.0.0.1:950] 0.0 (3): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:39:51.480703 2015] [:error] [pid 9141] [remote 127.0.0.1:950] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T14:39:51.479750' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:39:51.547562 2015] [:error] [pid 9141] [remote 127.0.0.1:950] 0.0 (5): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:39:51.548671 2015] [:error] [pid 9141] [remote 127.0.0.1:950] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnMWIwOTNiMjc2\\nMjY3YWU0OWZkMjdkYjQ1MWNlZWYzZTU4ZWJmNTdjMicKcDUKcy4=\\n' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 14:43:07.835316 2015] [:error] [pid 9167] [remote 127.0.0.1:950] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T14:43:07.826716' > atime
+[Mon Dec 14 14:43:07.837277 2015] [:error] [pid 9167] [remote 127.0.0.1:950] 0.0 (2): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:07.838307 2015] [:error] [pid 9167] [remote 127.0.0.1:950] 0.0 (3): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:07.838941 2015] [:error] [pid 9167] [remote 127.0.0.1:950] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T14:43:07.837496' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:07.957595 2015] [:error] [pid 9167] [remote 127.0.0.1:950] 0.0 (5): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:07.958439 2015] [:error] [pid 9167] [remote 127.0.0.1:950] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnMWIwOTNiMjc2\\nMjY3YWU0OWZkMjdkYjQ1MWNlZWYzZTU4ZWJmNTdjMicKcDUKcy4=\\n' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 14:43:29.816646 2015] [:error] [pid 9527] [remote 127.0.0.1:950] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T14:43:29.810822' > atime
+[Mon Dec 14 14:43:29.818417 2015] [:error] [pid 9527] [remote 127.0.0.1:950] 0.0 (2): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:29.819174 2015] [:error] [pid 9527] [remote 127.0.0.1:950] 0.0 (3): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:29.819787 2015] [:error] [pid 9527] [remote 127.0.0.1:950] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T14:43:29.818612' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:29.871912 2015] [:error] [pid 9527] [remote 127.0.0.1:950] 0.0 (5): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:29.872562 2015] [:error] [pid 9527] [remote 127.0.0.1:950] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnMWIwOTNiMjc2\\nMjY3YWU0OWZkMjdkYjQ1MWNlZWYzZTU4ZWJmNTdjMicKcDUKcy4=\\n' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 14:43:56.877923 2015] [:error] [pid 10115] [remote 127.0.0.1:950] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T14:43:56.871348' > atime
+[Mon Dec 14 14:43:56.879588 2015] [:error] [pid 10115] [remote 127.0.0.1:950] 0.0 (2): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:56.880670 2015] [:error] [pid 10115] [remote 127.0.0.1:950] 0.0 (3): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:56.881376 2015] [:error] [pid 10115] [remote 127.0.0.1:950] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T14:43:56.879893' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:56.958557 2015] [:error] [pid 10115] [remote 127.0.0.1:950] 0.0 (5): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:43:56.959535 2015] [:error] [pid 10115] [remote 127.0.0.1:950] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnMWIwOTNiMjc2\\nMjY3YWU0OWZkMjdkYjQ1MWNlZWYzZTU4ZWJmNTdjMicKcDUKcy4=\\n' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 14:50:25.251226 2015] [:error] [pid 10201] [remote 127.0.0.1:950] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T14:50:25.196082' > atime
+[Mon Dec 14 14:50:25.253768 2015] [:error] [pid 10201] [remote 127.0.0.1:950] 0.0 (2): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:50:25.255323 2015] [:error] [pid 10201] [remote 127.0.0.1:950] 0.0 (3): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:50:25.256901 2015] [:error] [pid 10201] [remote 127.0.0.1:950] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T14:50:25.254110' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:50:25.341391 2015] [:error] [pid 10201] [remote 127.0.0.1:950] 0.0 (5): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:50:25.342758 2015] [:error] [pid 10201] [remote 127.0.0.1:950] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnMWIwOTNiMjc2\\nMjY3YWU0OWZkMjdkYjQ1MWNlZWYzZTU4ZWJmNTdjMicKcDUKcy4=\\n' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Dec 14 14:50:45.642717 2015] [:error] [pid 10277] [remote 127.0.0.1:950] 0.0 (1): DELETE FROM sessions WHERE '2015-12-13T14:50:45.634916' > atime
+[Mon Dec 14 14:50:45.644633 2015] [:error] [pid 10277] [remote 127.0.0.1:950] 0.0 (2): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:50:45.645737 2015] [:error] [pid 10277] [remote 127.0.0.1:950] 0.0 (3): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:50:45.646661 2015] [:error] [pid 10277] [remote 127.0.0.1:950] 0.0 (4): UPDATE sessions SET atime = '2015-12-14T14:50:45.644855' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:50:45.727438 2015] [:error] [pid 10277] [remote 127.0.0.1:950] 0.0 (5): SELECT * FROM sessions WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+[Mon Dec 14 14:50:45.728390 2015] [:error] [pid 10277] [remote 127.0.0.1:950] 0.0 (6): UPDATE sessions SET data = 'KGRwMQpTJ2lwJwpwMgpWMTI3LjAuMC4xCnAzCnNTJ3Nlc3Npb25faWQnCnA0ClMnMWIwOTNiMjc2\\nMjY3YWU0OWZkMjdkYjQ1MWNlZWYzZTU4ZWJmNTdjMicKcDUKcy4=\\n' WHERE session_id='1b093b276267ae49fd27db451ceef3e58ebf57c2'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state

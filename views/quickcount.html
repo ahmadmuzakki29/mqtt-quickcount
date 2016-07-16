@@ -1,0 +1,106 @@
+$def with(dpt,dpt_live,php,suara,sah,tidaksah)
+<html>
+<head>
+<title>Sidoarjo Hatiku - Quick Count </title>
+<link rel="shortcut icon" type="image/png" href="/static/images/heart.ico"/>
+<link rel='stylesheet' href="/static/css/quickcount.css"/>
+<script src='/static/js/jquery.min.js'></script>
+<script src='/static/js/lib/mqttws31.js'></script>
+<script>
+var dpt = $dpt;
+var dpt_live = $dpt_live;
+var php = $php;
+var sah = $sah;
+var tidaksah = $tidaksah;
+var suara = [];
+suara[1] = $suara['total1'];
+suara[2] = $suara['total2'];
+suara[3] = $suara['total3'];
+suara[4] = $suara['total4'];
+
+</script>
+<script src='/static/js/quickcount.js'></script>
+
+
+</head>
+<body>
+<script>
+$$(function(){
+	width = $$("body").width();
+	width = (80/100)*width;
+	$$(".background").width(width);
+});
+</script>
+<div class='background'></div>
+<div class='chart_box'>
+<ul >
+<li id="1">
+	<div class='chart_container' >
+		<div class='persentase' ></div>
+		<div class='chart c1' ></div>
+	</div>
+	<div class='content'>
+		<div class='count' ></div>
+		<div class='main' style='background-image: url("/static/images/qc1.jpg")'></div>
+		
+		<div class='masuk'>Suara masuk : <span id='masuk'></span></div>
+	</div>
+</li>
+<li id="2">
+	<div class='chart_container' >
+		<div class='persentase' ></div>
+		<div class='chart c2' ></div>
+	</div>
+	<div class='content'>
+		<div class='main'style='background-image: url("/static/images/qc2.jpg")'></div>
+		<div class='count'></div>
+		<div class='masuk'>Suara masuk : <span id='masuk'></span></div>
+	</div>
+</li>
+<li id="3">
+	<div class='chart_container' >
+		<div class='persentase' ></div>
+		<div class='chart c3' ></div>
+	</div>
+	<div class='content'>
+		<div class='main'style='background-image: url("/static/images/qc3.jpg")'></div>
+		<div class='count'></div>
+		<div class='masuk'>Suara masuk : <span id='masuk'></span></div>
+	</div>
+</li>
+<li id="4">
+	<div class='chart_container' >
+		<div class='persentase' ></div>
+		<div class='chart c4' ></div>
+	</div>
+	<div class='content'>
+		<div class='main'style='background-image: url("/static/images/qc4.jpg")'></div>
+		<div class='count'></div>
+		<div class='masuk'>Suara masuk : <span id='masuk'></span></div>
+	</div>
+</li>
+<li class='keterangan' >
+<div> <div>Total DPT Awal : </div><div style='float:right;' id='dpt'> $dpt </div></div>
+<div> <div>Total DPT Saat Ini : </div><div style='float:right;' id='dpt_live'> $dpt_live </div></div>
+<div> <div>Suara Sah : </div><div style='float:right;' id='sah'> $sah </div></div>
+<div> <div>Suara Tidak Sah : </div><div style='float:right;' id='tidaksah'> $tidaksah </div></div>
+<div> <div>Suara Masuk : </div><div style='float:right;' id='suaramasuk'></div></div>
+<div><div style='float:right;' id='persen'>0%</div></div>
+
+<div class='upload'>
+<form action='https://app.radiaranai.com/upload_c1/' enctype="multipart/form-data" method='post'>
+<div style="font-size: 14pt; text-align:center; width: 90%;">Upload Foto</div><br/>
+<div> Nomor HP : </div><br/><div><input type='text' name='nomor' /></div><br/>
+<div> Foto C1 : </div><div style='padding-left:20px;'><input type='file' name='c1_1'/></div><br/>
+<div> Foto Plano : </div><div style='padding-left:20px;'><input type='file' name='c1_2'/></div><br/>
+<div> Foto Daftar Hadir : </div><div style='padding-left:20px;'><input type='file' name='c1_3'/></div>
+<div  style="font-size: 14pt; text-align:center; width: 90%;">
+<input type='submit' name='simpan' value='Kirim'/></div>
+</form>
+</div>
+
+</li>
+</ul>
+</div>
+</body>
+</html>

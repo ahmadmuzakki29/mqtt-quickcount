@@ -1,0 +1,151 @@
+.chart_box{
+    text-align: center;
+    height: 100%;
+  
+
+}
+.chart_box ul{
+    height: 100%;
+    width: 100%;
+    padding:0;
+    margin: 0 auto;
+    display:table;
+    table-layout:fixed;
+}
+.chart_box li{
+    position:relative;
+    display:table-cell;
+    vertical-align:bottom;
+}
+.chart_container{
+    
+}
+.content{
+    height: 30%;
+    /* overflow: hidden; */
+    position: relative;
+    border-top:solid 2px;
+}
+.content .main{
+    display: inline-block;
+    height: 90%;
+    
+    width: 70%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.count{
+     position: absolute;
+     padding: 5px;
+     height: 15%;
+     border: solid 3px; 
+    border-radius: 5px; 
+    text-align:center;
+    font: 20px Arial;
+    font-weight:bolder;
+    
+     color: #3F3F3F;
+    
+     display: none;
+    background:white;
+    
+}
+.content img{
+    display: inline-block;
+    height: 159.5;
+}
+.persentase{
+    text-align:center;
+    font: 35px Arial;
+    font-weight:bolder;
+    color: #707070;
+
+}
+.chart{
+    width: 120px;
+    border: solid 1px;
+    /*border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+*/
+    margin:0 auto;
+}
+
+.c1{
+    background: #FE2121;
+    border: none;
+}
+.c2{
+    
+    background: #FFD100;
+    border: none;
+}
+.c3{
+    background: #5A9900;
+    border: none;
+}
+.c4{
+    background: #0C36E2;
+    border: none;
+}
+
+.keterangan{
+    vertical-align: top !important; 
+    text-align:left;
+    border: solid 3px;
+    padding: 10px;
+    border-color: red;
+    border-radius: 10px;
+    background: #D2E2E7;
+}
+.keterangan > div{
+    width:100%;
+}
+.keterangan div{
+    font: 14pt Arial;
+    display:inline-block;
+    margin:2% 0;
+}
+.masuk{
+    /* float:left; */
+    /* display: inline-block; */
+    height: 10%;
+}
+.upload{
+    position:absolute;
+    bottom:0;
+    left: 0;
+    padding: 10px;
+}
+.upload div{
+  font: 10pt serif;
+}
+
+.upload input[type='submit']{
+    padding: 3px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.background{
+  left: 30;
+  top: -100;
+  width: 1028px;
+  height: 500px;
+  display: block;
+  position: absolute;
+}
+
+.background::after {
+  content: "";
+  background: url("/static/images/hatiku bg.jpg");
+  opacity: 0.2;
+  background-size:100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
